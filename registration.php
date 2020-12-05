@@ -19,30 +19,30 @@
 
             <div>
                 <label for="username">Username: </label>
-                <input type="text" name="username">
+                <input type="text" name="username" required>
             </div>
             <br>
 
             <div>
                 <label for="email">Email: </label>
-                <input type="email" name="email">
+                <input type="email" name="email" required>
             </div>
             <br>
 
             <div>
                 <label for="password">Password: </label>
-                <input type="password" name="pass1">
+                <input type="password" name="pass1" required>
             </div>
             <br>
 
             <div>
                 <label for="password">Confirm Password: </label>
-                <input type="password" name="pass2">
+                <input type="password" name="pass2" required>
             </div>
             <br>
 
             <div>
-                <button type="submit">Submit</button>
+                <button type="submit" name="reg_user">Submit</button>
             </div>
             <br>
             <br>

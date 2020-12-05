@@ -19,20 +19,21 @@
 
             <div>
                 <label for="username">Username: </label>
-                <input type="text" name="username">
+                <input type="text" name="username" required>
             </div>
             <br>
 
 
             <div>
                 <label for="password">Password: </label>
-                <input type="password" name="pass1">
+                <input type="password" name="pass1" required>
+
             </div>
             <br>
 
 
             <div>
-                <button type="submit">Log in</button>
+                <button type="submit" name="log_user">Log in</button>
             </div>
             <br>
             <br>
