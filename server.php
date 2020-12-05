@@ -35,3 +35,12 @@ if($user){
     if($user["username"]===$username){array_push($errors,"Username already exists");}
     if($user["email"]===$email){array_push($errors,"Email already exists");}
 }
+
+
+// Registering user if no error
+if(count($errors)===0){
+    //Encryting password first
+    $password=md5($pass1);
+
+    $query="INSERT INTO user (username,email,password) VALUES ('$username','$email','$password')";
+}
